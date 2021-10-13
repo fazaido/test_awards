@@ -3,7 +3,7 @@
 . PRÉ REQUISITOS 
 Linux com maven, make e java 16 instalados.
 
-. EXECUTAR no terminal:
+. EXECUTAR no terminal Linux:
 
 cd configure
 
