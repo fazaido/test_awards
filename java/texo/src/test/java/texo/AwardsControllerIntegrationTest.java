@@ -27,7 +27,7 @@ public class AwardsControllerIntegrationTest {
 	@Autowired
 	private MockMvc mockMvc;	
 
-	private static final String INTERVAL_WINNERS = "/interval_winners";
+	private static final String INTERVAL_WINNERS = "/awards/intervals";
 
 	@Test
 	void testIntervalWinners() throws Exception {
