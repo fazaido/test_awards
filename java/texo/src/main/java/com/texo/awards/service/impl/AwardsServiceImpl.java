@@ -86,4 +86,9 @@ public class AwardsServiceImpl implements AwardsService {
 			}
 		}
 	}
+
+	@Override
+	public Integer saveAll(List<Awards> awards) {
+		return awardsRepository.saveAll(awards).size();
+	}
 }
